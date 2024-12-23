@@ -1,0 +1,99 @@
+.loginContainerBox .inputBox {
+  position: relative;
+  margin: 20px 0;
+}
+
+.loginContainerBox label {
+  position: absolute;
+  font-size: 16px;
+  color: #9f9f9f;
+  background: #fff;
+  margin: 8px 0;
+  left: 10px;
+  bottom: 30px;
+  border-radius: 8px;
+}
+
+.loginContainerBox {
+  position: relative;
+  overflow: hidden;
+  width: 100vw;
+  height: 100vw;
+  max-height: 700px;
+  background: url("../assets/images/login-bg.png") no-repeat;
+  background-size: cover;
+}
+
+.loginContainer {
+  background-color: #fff;
+  padding: 32px 48px;
+  border-radius: 10px;
+  width: 100%;
+  max-width: 400px;
+  box-shadow: 8px 8px 24px 0px rgba(66, 68, 90, 1);
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+.container > h1 {
+  margin-bottom: 20px;
+}
+
+.container > form {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+
+.container div {
+  display: flex;
+  flex-direction: column;
+}
+
+.loginContainerBox input {
+  outline: none;
+  width: 100%;
+  font-size: 20px;
+  padding: 10px;
+  border: 1px solid #9f9f9f;
+  border-radius: 10px;
+  background-color: transparent;
+}
+
+.container input::placeholder {
+  font-size: 12px;
+}
+
+.loginContainerBox .loginBtn {
+  background-color: #5c218b;
+  border: none;
+  padding: 8px;
+  font-size: 20px;
+  color: white;
+  border-radius: 5px;
+  cursor: pointer;
+  margin: 20px 0;
+  width: 100%;
+}
+
+.loginContainerBox .logoImg {
+  width: 160px !important;
+}
+
+.loginContainerBox .logoBox {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+
+.loginContainerBox .logoHeading {
+  color: #868686;
+  margin-bottom: 8px;
+  font-weight: 400;
+  font-size: 16px;
+}
+
+

@@ -1,0 +1,33 @@
+.sidebarContainer{
+    width: 20%;
+    height: 100vh;
+    background-color: #f4f4f4;
+    position: fixed;
+}
+
+.sidebarContainer a{
+    text-decoration: none;
+    color: #000000;
+    font-size: 16px;
+}
+
+.sidebarContainer img{
+    width: 30px;
+}
+
+.sidebarContainer ul{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    list-style: none;
+    padding: 20px;
+}
+
+.sidebarContainer ul li{
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    margin: 10px;
+    cursor: pointer;
+
+}

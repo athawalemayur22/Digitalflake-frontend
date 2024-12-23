@@ -1,0 +1,6 @@
+.cityContainer{
+    position: fixed;
+    left: 320px;
+    padding-left: 20px;
+    overflow: hidden;
+}

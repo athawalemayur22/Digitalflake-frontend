@@ -1,0 +1,11 @@
+.navContainer{
+    background-color: #662671;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px;
+}
+
+.navLogoImg,.navAdminLogoImg{
+    cursor: pointer;
+}
